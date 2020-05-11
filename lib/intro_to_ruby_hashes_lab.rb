@@ -17,5 +17,6 @@ def update_counting_hash(hash, key)
     hash[key] = value + 1
   else
     hash.store(key, 1)
+  end
   return hash
 end
